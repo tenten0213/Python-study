@@ -13,7 +13,8 @@ Python
 - 08/03  
 どんなものを作るか決める  
 開発環境を整える  
-Hello World!する 
+Hello World!する  
+⇒[やったことについてBlog書いた](http://syobochim.hatenablog.com/entry/2013/08/04/021452)
 
 - 08/04  
 ツールを作るうえで参考できるやつを探す  
