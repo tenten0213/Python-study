@@ -23,6 +23,10 @@ Hello World!する
 
 - 08/05  
 Djangoとは。  
+⇒インストールと起動まででブログ書いた  
+[コンソールでインストールと起動](http://syobochim.hatenablog.com/entry/2013/08/06/143351)  
+[Intellij IDEAでインストールと起動](http://syobochim.hatenablog.com/entry/2013/08/06/150615)  
+そして、もはやスケジュールが間に合ってない…。  
 
 - 08/06  
 DjangoでWebアプリを作成する。  
