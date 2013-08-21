@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3399528960">
+    <data-source source="LOCAL" name="Django_test" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="8bc814bd-2d9d-442d-9abd-983148c41e7f">
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Study\Python-study\django_test\mysite_django.db</jdbc-url>
+      <user-name>dbuser</user-name>
+      <user-password>dfcedfc8dfdfdfd9dfcfdfd8</user-password>
+      <libraries>
+        <library>
+          <url>jar://C:/tmp/SQLite Connector/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+        </library>
+        <library>
+          <url>file://C:/tmp/SQLite Connector/xerial-sqlite-license.txt</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
