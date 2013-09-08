@@ -6,20 +6,20 @@ from django.template import RequestContext
 
 from polls.models import Poll, Choice
 from django.shortcuts import render_to_response, get_object_or_404
-from django.views.decorators.csrf import csrf_protect
+# from django.views.decorators.csrf import csrf_protect
 
 
-def index(request):
-    latest_poll_list = Poll.objects.all().order_by('-pub_date')[:5]
-    return render_to_response('polls/index.html',
-                              {'latest_poll_list': latest_poll_list})
+# def index(request):
+#     latest_poll_list = Poll.objects.all().order_by('-pub_date')[:5]
+#     return render_to_response('polls/index.html',
+#                               {'latest_poll_list': latest_poll_list})
 
 
-@csrf_protect
-def detail(request, poll_id):
-    p = get_object_or_404(Poll, pk=poll_id)
-    return render_to_response('polls/detail.html', {'poll': p},
-                              context_instance=RequestContext(request))
+# @csrf_protect
+# def detail(request, poll_id):
+#     p = get_object_or_404(Poll, pk=poll_id)
+#     return render_to_response('polls/detail.html', {'poll': p},
+#                               context_instance=RequestContext(request))
 
 
 def vote(request, poll_id):
@@ -38,9 +38,9 @@ def vote(request, poll_id):
         # ユーザが Back ボタンを押して同じフォームを提出するのを防ぐ
         # ため、POST データを処理できた場合には、必ず
         # HttpResponseRedirect を返すようにします。
-        return HttpResponseRedirect(reverse('polls.views.results', args=(p.id,)))
+        return HttpResponseRedirect(reverse('poll_results', args=(p.id,)))
 
 
-def results(request, poll_id):
-    p = get_object_or_404(Poll, pk=poll_id)
-    return render_to_response('polls/results.html', {'poll': p})
+# def results(request, poll_id):
+#     p = get_object_or_404(Poll, pk=poll_id)
+#     return render_to_response('polls/results.html', {'poll': p})
